@@ -2,6 +2,12 @@
 
 This project aims to display traffic on your personal projects.
 
+<center>
+
+![application screen](./media/application.png)
+
+</center>
+
 ## Setup
 
 First you need to create a key for Github API :
@@ -46,4 +52,15 @@ mv .env.example .env
 
 ### Run application
 
-In progress...
+#### Run backend
+
+```bash
+python backend/utils/main.py
+```
+
+#### Run frontend
+
+```bash
+cd front
+npm start
+```

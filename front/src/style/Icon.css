@@ -1,0 +1,35 @@
+.icon-button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: width 0.5s, border-radius 0.5s;
+}
+
+.icon-button img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(-10%, -50%);
+}
+
+.icon-button:hover {
+  width: 300px;
+  border-radius: 25px;
+}
+
+.icon-p {
+  display: block;
+  opacity: 0;
+  transition: opacity 0s, color 0s;
+  color: white;
+}
+
+.icon-button:hover .icon-p {
+  opacity: 1;
+  display: block;
+  color: black;
+  transition-delay: 0.5s;
+}

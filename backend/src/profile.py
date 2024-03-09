@@ -1,7 +1,7 @@
 from github import Github, Auth
 from pandas import DataFrame
 
-from backend import Repository
+from src import Repository
 
 from dotenv import load_dotenv
 import os

@@ -1,0 +1,12 @@
+.info-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info-button:hover {
+  background-color: #7e8085;
+  color: #e9e9ea;
+}
